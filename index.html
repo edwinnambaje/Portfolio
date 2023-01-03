@@ -17,6 +17,18 @@
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
+    <div class="popup" id="popup-1">
+        <div class="content">
+         <div class="close-btn" onclick="togglePopupa()">
+          ×</div>
+     <h1>Sign in</h1> 
+       <div class="input-field"><input placeholder="Email" class="validate"></div>
+       <div class="input-field"><input placeholder="Password" class="validate"></div>
+       <button class="second-button">Login</button>
+         <p class="pp">Don't have an account? <a href="/signup.html">Sign Up</a></p>
+        </div>
+       </div>
+      
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
@@ -26,6 +38,7 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <button onclick="togglePopup()" class="second-button">Sign In</button>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -126,9 +139,6 @@
             </div>
         </div>
     </section>
-
-    
-    
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>

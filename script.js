@@ -71,3 +71,11 @@ $(document).ready(function(){
         }
     });
 });
+ function togglePopup() {
+ document.getElementById("popup-1")
+  .classList.toggle("active");
+}
+function togglePopupa() {
+    document.getElementById("popup-1")
+     .classList.remove("active");
+   }

@@ -12,6 +12,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -38,6 +43,7 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#testi" class="menu-btn">Testimonials</a></li>
                 <button onclick="togglePopup()" class="second-button">Sign In</button>
             </ul>
             <div class="menu-btn">
@@ -139,6 +145,67 @@
             </div>
         </div>
     </section>
+    <section class="container" id="testi">
+        <div class="testimonial mySwiper">
+            <h2 class="title">Testimonials</h2>
+            <div class="testi-content swiper-wrapper">
+              <div class="slide swiper-slide">
+                <img src="images/img1.jpg" alt="" class="image" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                  doloremque deserunt eum nemo.
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">Marnie Lotter</span>
+                  <span class="job">Web Developer</span>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="images/edwin.jpg" alt="" class="image" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">Nambaje Edwin</span>
+                  <span class="job">Software Developer</span>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="images/img3.jpg" alt="" class="image" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                  doloremque deserunt eum nemo.
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">Marnie Lotter</span>
+                  <span class="job">Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+    
+        <!-- Swiper JS -->
+        <script src="js/swiper-bundle.min.js"></script>
+
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>

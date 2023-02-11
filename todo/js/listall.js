@@ -18,12 +18,12 @@ const renderPost=(todo)=>{
     });
     posts.innerHTML=output
 }
-fetch("http://localhost:3000/todo")
+fetch("https://todo-no92.onrender.com/todo")
 .then((res)=>res.json())
 .then((data)=>{     //console.log(data)
 renderPost(data)    
 })
-const urls="http://localhost:3000/todo/add";
+const urls="https://todo-no92.onrender.com/todo/add";
 addtodo.addEventListener('submit',(e)=>{
     e.preventDefault()
     fetch(urls,{
@@ -48,7 +48,7 @@ addtodo.addEventListener('submit',(e)=>{
 alert('Added');
 location.reload();
 })
-const url="http://localhost:3000/todo";
+const url="https://todo-no92.onrender.com/todo";
 posts.addEventListener('click',(e)=>{
     e.preventDefault();
     let delButton= e.target.id == "delete";
